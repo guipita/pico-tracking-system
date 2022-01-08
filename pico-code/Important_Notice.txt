@@ -1,0 +1,3 @@
+The code in adafruit_gps.py is not our work. It is the work of Adafruit Industries. A Twilio tutorial was used to work
+with the SIM7080G module, and develop my_helper.py. The link to the tutorial is provided below:
+https://www.twilio.com/docs/iot/supersim/get-started-with-super-sim-and-the-raspberry-pi-pico
