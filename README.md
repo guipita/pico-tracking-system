@@ -15,7 +15,22 @@ This project was developed by Elsa Tcheuyap, Guilherme Pita, Junyu Guo, Rusan Sh
 - Twilio Super Sim
 - Breadboard
 
-## Microcontroller
+## Features
+
+### Physical device
+
+- Collects the device's location at periodic intervals, and stores the information locally in a micro SD card.
+- Transmits location data and device performance using a SIM card to Web Interface.
+- Fully independent and isolated position tracking system, with expandable battery for longer autonomy.
+- Case designed to better protect the device. It stabilizes and secures the various electronics in place and shields them from the outside.
+
+### Web interface
+
+- Sends commands to the devices and receives information, such as battery percentage and current location.
+- Creates a database of messages received from your devices
+- Visualize the positions map using Google Maps to get insights on the use of the assets, with the data retrieved from the micro SD cards.
+
+## Set-up
 
 ### Micropython
 
