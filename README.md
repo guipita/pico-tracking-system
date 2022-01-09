@@ -41,3 +41,11 @@ Then, use [Thonny](https://thonny.org/) to connect your flashed Pico to your com
 ### Hardware
 
 Follow the code above to connect the correct wires to the modules and the correct GPIO pins. If you want to post the detailed instructions to those connections, please create a pull request.
+
+### Twillio
+
+TODO
+
+### Web Interface
+
+TODO
