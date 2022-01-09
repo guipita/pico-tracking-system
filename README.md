@@ -6,11 +6,14 @@ This project was developed by Elsa Tcheuyap, Guilherme Pita, Junyu Guo, Rusan Sh
 
 ## Devices used
 
+![Tracking device](assets/tracking_device.jpeg)
+
 - Raspberry Pi Pico
 - Adafruit GPS Ultimate Module
 - SIMCom SIM7080G Module (battery and antenna included)
 - Micro-SD Breakout (as well as a micro-sd card)
 - Twilio Super Sim
+- Breadboard
 
 ## Microcontroller
 
