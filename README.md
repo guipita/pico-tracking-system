@@ -44,8 +44,8 @@ Follow the code above to connect the correct wires to the modules and the correc
 
 ### Twillio
 
-TODO
+You must set up a Twillio account so send the messages to a url of your choice. This url must point to your web application.
 
 ### Web Interface
 
-TODO
+The web interface files are [here](webapp). It has been tested with Google Cloud.
