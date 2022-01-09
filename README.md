@@ -48,4 +48,4 @@ You must set up a Twillio account so send the messages to a url of your choice. 
 
 ### Web Interface
 
-The web interface files are [here](webapp). It has been tested with Google Cloud.
+The web interface files are [here](webapp). It has been tested with Google Cloud. All Python libraries required are described [here](webapp/requirements.txt), remember to `pip install` or `pip3 install` them before deploying.
