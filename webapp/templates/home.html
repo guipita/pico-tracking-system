@@ -1,0 +1,76 @@
+{% extends "base.html"%}
+{% block content%}
+<section class="jumbotron text-center">
+    <div class="container">
+        <div style="margin:20px"> 
+            <h1 class="jumbotron-heading" style="margin-top: 35;">Welcome to Keep on Track</h1>
+        </div>
+            <p class="lead text-muted">
+                Keep on Track provides advanced asset tracking technology to help support 
+                East African smallholder farmers. By decreasing their losses, analyzing data, we aim to increase
+                production productivity, which will have a number of positive effects on the regional economy.
+                An increase in production of resources can lead to a decrease in poverty hunger and gender 
+                inequality. 
+                Our design utilizes an integrated softare and hardware solution that satisfies the needs of all our
+                stakeholders. We use a Raspberry Pi with GPS and SIM modules to retrieve location data. 
+                This data, along with other various commands, are sent to our Google Cloud server where we process these requests to generate 
+                real-time messages and a map of the path of the working asset(s). 
+            </p>
+            <div>
+                <p class="lead">Click any of the buttons above to begin!</p>
+            </div>
+    </div>
+  </section>
+
+<div style="margin:50px">
+    <div id="carouselExampleLight" class="carousel carousel-light slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleLight" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleLight" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleLight" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active" data-bs-interval="10000" >
+            <div class="d-flex justify-content-center">
+                <img src="static/images/prototype.jpeg" class="d-block w-75" alt="..." style="width:440px;height:540px">
+            </div>
+                <div class="carousel-caption d-none d-md-block">
+              <h5>An Integrated Solution</h5>
+              <p>Keep on Track has a <strong>unique</strong> way of tracking assets.</p>
+            </div>
+          </div>
+
+          <div class="carousel-item" data-bs-interval="2000">
+            <div class="d-flex justify-content-center">
+                <img src="static/images/Cycle_Connect.gif" class="d-block w-75" alt="..." style="width:440px;height:540px">
+            </div>
+            
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Usability</h5>
+              <p>Connecting farmers in Uganda with the necessary tools to <strong>thrive.</strong></p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="d-flex justify-content-center">
+                <img src="static/images/cycleconnectlogo.png" class="d-block w-75" alt="..." style="width:440px;height:540px" >
+            </div>
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Learn more about the project</h5>
+              <p>Visit <strong>https://cycleconnect.org/</strong></p>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+</div>
+
+
+
+{% endblock content%}

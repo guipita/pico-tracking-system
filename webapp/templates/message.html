@@ -1,0 +1,40 @@
+{% extends "base.html"%}
+{% block content%}
+
+{% if command %}
+
+<div>
+    {% for item in command %}
+        <div class="list-group">
+            <a href="#" class="list-group-item list-group-item-action">
+                <div class="d-flex w-100 justify-content-between" style="padding-top: 10px; padding-bottom: 10px;">
+                  <h5 class="mb-1">{{item.message}}</h5>
+                  <small class="text-muted"><span id="datetime" ></span></small>
+                </div>
+                <p class="mb-1">You can add a message to the user here.</p>
+                <small class="text-muted">And some muted small print.</small>
+              </a>
+        </div>
+
+     
+        <script>
+            const dt = new Date();
+            document.getElementById("datetime").innerHTML = dt.toLocaleTimeString();
+        </script>   
+
+    {% endfor %}
+
+
+</div>
+
+{%else%}
+
+<div class="d-flex justify-content-center" style="margin:20px;">
+    <h2> No messages yet ... <span class="badge bg-secondary">Wait for a POST request</span></h2>
+</div>
+
+{%endif%}
+
+
+
+{% endblock content%}
